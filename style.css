@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: Arial;
 }
 
 .zone {
@@ -19,6 +20,12 @@ body {
 }
 
 /* Nav */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
